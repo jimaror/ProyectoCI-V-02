@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Aprendiendo GIT</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <h1>Aprendiendo Git DEV</h1>
+        <h2>Jimmy Marquez</h2>
+        <p>Mi bitácora del curso de Git y GitHub · Unidad 3</p>
+    </header>
+    <main>
+        <section>
+            <h2>2.1 Instalación y configuración</h2>
+            <p>Instalé Git y configuré mi identidad.</p>
+            <code>git config --global user.name</code>
+        </section>
+        <section>
+            <h2>2.2 Mi primer repositorio</h2>
+            <p>Con git init creé la carpeta oculta .git.</p>
+            <p>Estados: untracked, modified, staged y unmodified.</p>
+        </section>
+        <section>
+            <h2>2.3 Ciclo de vida</h2>
+            <ol>
+                <li>Editar el archivo</li>
+                <li>Revisar con git status</li>
+                <li>Preparar con git add</li>
+                <li>Guardar con git commit</li>
+            </ol>
+        </section>
+        <section>
+            <h2>2.4 Exclusión con .gitignore</h2>
+            <p>Ignoro secretos, registros y archivos temporales.</p>
+            <code>*.log</code>
+        </section>
+        <section>
+            <h2>3.1 Ramas</h2>
+            <p>Una rama me permite experimentar sin romper main.</p>
+            <code>git switch -c feature/nueva-idea</code>
+        </section>
+        <section>
+            <h2>3.2 Fusiones y conflictos</h2>
+            <p>Un conflicto aparece cuando dos ramas cambian la misma línea.</p>
+            <p>Línea para conflicto Master</p>
+            <code>git merge feature/seccion-3-2</code>
+        </section>
+        <section>
+            <h2>3.4 Historial y recuperación</h2>
+            <p>Con log, diff, revert, reset, reflog y stash nada se pierde.</p>
+            <code>git reflog</code>
+        </section>
+        <section>
+            <h2>4.1 Remotos y GitHub</h2>
+            <p>Mi repositorio vive en GitHub: origin apunta a mi cuenta y sincronizo con fetch, pull y push.</p>
+            <code>git remote -v</code>
+        </section>
+    </main>
+    <footer>
+        <p>Hecho por Jimmy Marquez con Git</p>
+        <p>Curso de Git y GitHub · 2026</p>
+    </footer>
+</body>
+</html>
