@@ -56,17 +56,28 @@
             <p>Mi repositorio vive en GitHub: origin apunta a mi cuenta y sincronizo con fetch, pull y push.</p>
             <code>git remote -v</code>
         </section>
-        <section>
-            <h2>4.2 Sincronización y trabajo colaborativo</h2>
-            <p>El repositorio remoto en GitHub nos permite compartir el trabajo y colaborar con otras personas.</p>
-            <ul>
-                <li><code>git fetch</code> — descarga cambios pero no fusiona</li>
-                <li><code>git pull</code> — descarga y fusiona automáticamente</li>
-                <li><code>git push</code> — sube tus commits al repositorio remoto</li>
-            </ul>
-            <p><strong>Buena práctica:</strong> antes de empezar a trabajar, siempre haz <code>git pull</code>.</p>
+            <section>
+            <h2>3.1 Ramas</h2>
+            <p>Una rama me permite experimentar sin romper main.</p>
+            <code>git switch -c feature/nueva-idea</code>
         </section>
-    </main>
+        <section>
+            <h2>3.2 Fusiones y conflictos</h2>
+            <p>Un conflicto aparece cuando dos ramas cambian la misma línea.</p>
+            <p>Línea para conflicto Master</p>
+            <code>git merge feature/seccion-3-2</code>
+        </section>
+        <section>
+            <h2>3.4 Historial y recuperación</h2>
+            <p>Con log, diff, revert, reset, reflog y stash nada se pierde.</p>
+            <code>git reflog</code>
+        </section>
+        <section>
+            <h2>4.1 Remotos y GitHub</h2>
+            <p>Mi repositorio vive en GitHub: origin apunta a mi cuenta y sincronizo con fetch, pull y push.</p>
+            <code>git remote -v</code>
+        </section>
+   </main>
     <footer>
         <p>Hecho por Jimmy Marquez con Git</p>
         <p>Curso de Git y GitHub · 2026</p>
